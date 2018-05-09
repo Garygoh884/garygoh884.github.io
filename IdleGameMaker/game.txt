@@ -1,1 +1,14 @@
 Let's make a game!
+name:Test Game
+author:Garygoh884
+created:10/05/2016
+version:1.00
+
+Settings
+building cost increase:107%
+//stylesheet:(url)
+
+Resources
+*gold
+name:Gold
+showmax
