@@ -8,8 +8,13 @@ Settings
 building cost increase:107%
 //stylesheet:(url)
 
-Resources
+*basicButton
+name:Click for Gold
+on click:yield 1 Gold
+
 *gold
-shown
 name:Gold
+
+*building1
+name:Test Building 1
 
