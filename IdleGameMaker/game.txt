@@ -1,17 +1,12 @@
 Let's make a game!
 name:Test Game
 by:Garygoh884
-created:10/05/2016
+created:10/05/2018
 version:1.00
 
 Settings
 building cost increase:107%
 //stylesheet:(url)
-
-Buttons
-*basicButton
-name:Click for Gold
-on click:yield 1 Gold
 
 Resources
 *experience
