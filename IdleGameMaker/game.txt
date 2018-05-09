@@ -10,5 +10,6 @@ building cost increase:107%
 
 Resources
 *gold
+shown
 name:Gold
-showmax
+
