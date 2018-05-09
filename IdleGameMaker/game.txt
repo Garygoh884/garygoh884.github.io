@@ -52,5 +52,5 @@ start with:0
 *spider
 name:Spider
 desc:A Spider, unlike the Ball, teleports each time you click.
-on tick: yield 1000 experience
+on tick:yield 1000 experience
 start with:0
