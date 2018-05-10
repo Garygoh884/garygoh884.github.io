@@ -68,3 +68,11 @@ on tick:yield 50000 exp
 cost:1e9 exp
 cost increase:108%
 start with:0
+
+Upgrades
+*cubeUpgrade1
+name:Precision Improvements
+desc:Increases EXP gained from Cube by 3x.
+cost:100 exp
+passive:multiply yield of cube by 3
+req:10 cube
