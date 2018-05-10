@@ -15,56 +15,56 @@ name:EXP
 Buildings
 *cube
 name:Cube
-desc:A basic Cube that jumps each time you click.
-on tick:yield 0.5 exp
+desc:A basic Cube that jumps each time you click.<.>Earns 1 EXP each second.
+on tick:yield 1 exp
 cost:20 exp
 cost increase:105%
 start with:1
 
 *ship
 name:Ship
-desc: A Ship that flies by the control of your mouse.
-on tick:yield 2 exp
+desc: A Ship that flies by the control of your mouse.<.>Earns 3 EXP each second.
+on tick:yield 3 exp
 cost:100 exp
 cost increase:110%
 start with:0
 
 *ball
 name:Ball
-desc:A Ball that switches gravity each time you click.
-on tick:yield 5 exp
+desc:A Ball that switches gravity each time you click.<.>Earns 10 EXP each second.
+on tick:yield 10 exp
 cost:5000 exp
 cost increase:107%
 start with:0
 
 *ufo
 name:UFO
-desc: A UFO that jumps on-air each time you click.
-on tick:yield 20 exp
+desc: A UFO that jumps on-air each time you click.<.>Earns 50 EXP each second.
+on tick:yield 50 exp
 cost:100000 exp
 cost increase:106%
 start with:0
 
 *wave
 name:Wave
-desc:A Wave which goes straight ups and downs by the control of the mouse.
-on tick:yield 100 exp
+desc:A Wave which goes straight ups and downs by the control of the mouse.<.>Earns 300 EXP each second.
+on tick:yield 300 exp
 cost:1e6 exp
 cost increase:110%
 start with:0
 
 *robot
 name:Robot
-desc:A Robot, unlike the Cube, allows it to jump varying heights by the control of your mouse.
-on tick:yield 500 exp
+desc:A Robot, unlike the Cube, allows it to jump varying heights by the control of your mouse.<.>Earns 1,000 EXP each second.
+on tick:yield 1000 exp
 cost:50e6 exp
 cost increase:107%
 start with:0
 
 *spider
 name:Spider
-desc:A Spider, unlike the Ball, teleports each time you click.
-on tick:yield 1000 exp
+desc:A Spider, unlike the Ball, teleports each time you click.<.>Earns 50,000 EXP each second.
+on tick:yield 50000 exp
 cost:1e9 exp
 cost increase:108%
 start with:0
