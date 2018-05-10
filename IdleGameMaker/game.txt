@@ -20,6 +20,7 @@ on tick:yield 1 exp
 cost:20 exp
 cost increase:105%
 start with:1
+ps:show
 
 *ship
 name:Ship
@@ -28,6 +29,7 @@ on tick:yield 3 exp
 cost:100 exp
 cost increase:110%
 start with:0
+ps:show
 
 *ball
 name:Ball
@@ -36,6 +38,7 @@ on tick:yield 10 exp
 cost:5000 exp
 cost increase:107%
 start with:0
+ps:show
 
 *ufo
 name:UFO
@@ -44,6 +47,7 @@ on tick:yield 50 exp
 cost:100000 exp
 cost increase:106%
 start with:0
+ps:show
 
 *wave
 name:Wave
@@ -52,6 +56,7 @@ on tick:yield 300 exp
 cost:1e6 exp
 cost increase:110%
 start with:0
+ps:show
 
 *robot
 name:Robot
@@ -60,6 +65,7 @@ on tick:yield 1000 exp
 cost:50e6 exp
 cost increase:107%
 start with:0
+ps:show
 
 *spider
 name:Spider
@@ -68,6 +74,7 @@ on tick:yield 50000 exp
 cost:1e9 exp
 cost increase:108%
 start with:0
+ps:show
 
 Upgrades
 *cubeUpgrade1
