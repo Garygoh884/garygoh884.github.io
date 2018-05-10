@@ -17,40 +17,54 @@ Buildings
 name:Cube
 desc:A basic Cube that jumps each time you click.
 on tick:yield 0.5 experience
+costs:20 exp
+cost increase:105%
 start with:1
 
 *ship
 name:Ship
 desc: A Ship that flies by the control of your mouse.
 on tick:yield 2 experience
+costs:100 exp
+cost increase:110%
 start with:0
 
 *ball
 name:Ball
 desc:A Ball that switches gravity each time you click.
 on tick:yield 5 experience
+costs:5000 exp
+cost increase:107%
 start with:0
 
 *ufo
 name:UFO
 desc: A UFO that jumps on-air each time you click.
 on tick:yield 20 experience
+costs:100000 exp
+cost increase:106%
 start with:0
 
 *wave
 name:Wave
 desc:A Wave which goes straight ups and downs by the control of the mouse.
 on tick:yield 100 experience
+costs:1e6 exp
+cost increase:110%
 start with:0
 
 *robot
 name:Robot
 desc:A Robot, unlike the Cube, allows it to jump varying heights by the control of your mouse.
 on tick:yield 500 experience
+costs:50e6 exp
+cost increase:107%
 start with:0
 
 *spider
 name:Spider
 desc:A Spider, unlike the Ball, teleports each time you click.
 on tick:yield 1000 experience
+costs:1e9 exp
+cost increase:108%
 start with:0
